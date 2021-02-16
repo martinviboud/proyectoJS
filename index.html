@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Proyecto con JavaScript</title>
+    <meta charset="utf-8">
+     <!--estilos-->
+    <link rel="stylesheet" href="styles.css">
+    <link id="theme" rel="stylesheet" href="estilos/green.css" type="text/css">
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!--slider-->
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <!--main javascript-->
+    <script type="text/javascript" src="codigosJS/codigos.js"></script>
+    <!--moment.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.0/moment.min.js" integrity="sha512-Izh34nqeeR7/nwthfeE0SI3c8uhFSnqxV0sI9TvTcXiFJkMd6fB644O64BRq2P/LA/+7eRvCw4GmLsXksyTHBg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.28.0/locale/es.min.js" integrity="sha512-/HmEBBS8qan4uG3ClUfdNMUOprD0g4BNcJnOBh153mBMs16U92xULl8QS9A37/vLW17epcNp0t0fDOYWjpG73Q==" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="selectorTheme">
+        <div id="togreen"></div>
+        <div id="tored"></div>
+        <div id="toblue"></div>
+    </div>
+    <section id="global">
+        <!--CABECERA-->
+        <header id>
+            <div id="logo">
+                <h1>PROYECTO JS</h1>
+            </div>
+            <div class="clearfix"></div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="reloj.html">RELOJ</a></li>
+                    <li><a href="sobremi.html">SOBRE MI</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="clearfix"></div>
+        <!--SLIDER-->
+        <div class="bxslider">
+            <div><img src="img/cielo.jpg" title="Funky roots"></div>
+            <div><img src="img/rojo.jpg" title="The long and winding road"></div>
+            <div><img src="img/hojas.jpg" title="Happy trees"></div>
+          </div>
+        <!--CONTENIDO-->
+        <section id="content">
+            <div id="posts">
+                <article class="post">
+                    <h2>Titulo del Articulo</h2>
+                    <span class="fecha">Fecha de Publicacion</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent neque nibh, malesuada eu
+                        venenatis nec, congue eu nisi. In felis velit, porta non purus at, ultrices congue libero. Ut
+                        nisi metus, interdum nec faucibus eget, tincidunt a ex. Donec pretium tincidunt ante, id
+                        condimentum leo finibus sit amet. Fusce maximus enim sit amet elit auctor fermentum. Vivamus
+                        eget odio augue. Nullam blandit ligula enim, quis sollicitudin metus rhoncus pretium. Vivamus
+                        sodales, lorem porttitor rutrum cursus, felis justo venenatis tellus, vel porta sapien orci sed
+                        odio. Donec facilisis nulla nec hendrerit congue. Curabitur a quam sit amet tellus mattis
+                        interdum in ut ex. In posuere viverra orci at luctus. In id ipsum suscipit, tristique odio non,
+                        porttitor ipsum. Nunc euismod pulvinar nisl vitae tristique. Donec porttitor posuere turpis, et
+                        finibus lectus fringilla et. Vestibulum vehicula purus ut ex rutrum, ut viverra est convallis.</p>
+                        <a href="#" class="button-more">Leer Más..</a>
+
+                </article>
+            </div>
+            <aside id="sidebar">
+                <div id="about">
+                    <h4><span>¿Quien soy?</span></h4>
+                    <img src="img/caracol.jpg" alt="caracol">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent neque nibh, malesuada eu
+                        venenatis nec, congue eu nisi. In felis velit, porta non purus at, ultrices congue libero. Ut
+                        nisi metus, interdum nec faucibus eget, tincidunt a ex. Donec pretium tincidunt ante, id
+                        condimentum leo finibus sit amet. Fusce maximus enim sit amet elit auctor fermentum. Vivamus
+                        eget odio augue.</p>
+                </div>
+                <div id="login">
+                    <h4><span>Identificate</span></h4>
+                    <form>
+                        <label for="name">Nombre: </label>
+                        <input type="text" placeholder="Escribe aqui tu nombre.." name="name" id="form-name"><br>
+                        <label for="email">Mail:  </label>
+                        <input type="email" placeholder="Escribe aquí tu correo.." name="email"><br> 
+                        <label for="contrasena">Contraseña: </label>
+                        <input type="password" placeholder="Escribe aquí tu contraseña.." name="contrasena"> <br>
+                        <input type="submit">
+                    </form>
+                </div>
+            </aside>
+        </section>
+    </section>
+    <div class="clearfix"></div>
+    <footer id="piedepagina">
+        Curso de JavaScript
+        <a href="#" class="subir">Ir Arriba</a>
+    </footer>
+
+</body>
+
+</html>

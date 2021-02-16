@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Proyecto con JavaScript</title>
+    <meta charset="utf-8">
+    <!--estilos-->
+    <link rel="stylesheet" href="styles.css">
+    <link id="theme" rel="stylesheet" href="estilos/green.css" type="text/css">
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!--jquery ui-->
+    <link rel="stylesheet" href="jqueryUI/jquery-ui-1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="jqueryUI/jquery-ui-1.12.1/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="jqueryUI/jquery-ui-1.12.1/jquery-ui.theme.min.css">
+    <script type="text/javascript" src="jqueryUI/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+
+    <!--main javascript-->
+    <script type="text/javascript" src="codigosJS/codigos-sobremi.js"></script>
+    <!--moment.js-->
+
+</head>
+
+<body>
+    <div id="selectorTheme">
+        <div id="togreen"></div>
+        <div id="tored"></div>
+        <div id="toblue"></div>
+    </div>
+    <section id="global">
+        <!--CABECERA-->
+        <header id>
+            <div id="logo">
+                <h1>PROYECTO JS</h1>
+            </div>
+            <div class="clearfix"></div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    
+                    <li><a href="reloj.html">RELOJ</a></li>
+                    <li><a href="sobremi.html">SOBRE MI</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="clearfix"></div>
+        <!--ACORDEON-->
+        <div id="accordion">
+            <h3>Section 1</h3>
+            <div>
+                <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget.
+                    Integer ut neque. Vivamus nisi metus, molestie vel, gravida in,
+                    condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros.
+                    Nam mi. Proin viverra leo ut odio.</p>
+            </div>
+            <h3>Section 2</h3>
+            <div>
+                <p>Sed non urna. Phasellus eu ligula. Vestibulum sit amet purus.
+                    Vivamus hendrerit, dolor aliquet laoreet, mauris turpis velit,
+                    faucibus interdum tellus libero ac justo.</p>
+            </div>
+            <h3>Section 3</h3>
+            <div>
+                <p>Nam enim risus, molestie et, porta ac, aliquam ac, risus.
+                    Quisque lobortis.Phasellus pellentesque purus in massa.</p>
+            </div>
+        </div>
+        <!--CONTENIDO-->
+        <section id="content">
+
+            <aside id="sidebar">
+                <div id="about">
+                    <h4><span>¿Quien soy?</span></h4>
+                    <img src="img/caracol.jpg" alt="caracol">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent neque nibh, malesuada eu
+                        venenatis nec, congue eu nisi. In felis velit, porta non purus at, ultrices congue libero. Ut
+                        nisi metus, interdum nec faucibus eget, tincidunt a ex. Donec pretium tincidunt ante, id
+                        condimentum leo finibus sit amet. Fusce maximus enim sit amet elit auctor fermentum. Vivamus
+                        eget odio augue.</p>
+                </div>
+                <div id="login">
+                    <h4><span>Identificate</span></h4>
+                    <form>
+                        <label for="name">Nombre: </label>
+                        <input type="text" placeholder="Escribe aqui tu nombre.." name="name" id="form-name"><br>
+                        <label for="email">Mail: </label>
+                        <input type="email" placeholder="Escribe aquí tu correo.." name="email"><br>
+                        <label for="contrasena">Contraseña: </label>
+                        <input type="password" placeholder="Escribe aquí tu contraseña.." name="contrasena"> <br>
+                        <input type="submit">
+                    </form>
+                </div>
+            </aside>
+        </section>
+    </section>
+    <div class="clearfix"></div>
+    <footer id="piedepagina">
+        Curso de JavaScript
+        <a href="#" class="subir">Ir Arriba</a>
+    </footer>
+
+</body>
+
+</html>
